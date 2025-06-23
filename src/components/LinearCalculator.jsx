@@ -394,13 +394,13 @@ export default function LinearCalculator() {
           </div>
 
           {/* Top row buttons (AC, C, DEL, *) */}
-          <Button className="
+          <Button onClick={clearAll} className="
             bg-red-700 hover:bg-red-600 active:bg-red-800 text-white font-bold
             transform transition-all duration-150 ease-out active:scale-95
             shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-opacity-75
             rounded-lg
           ">AC</Button> {/* <<< PERUBAHAN STYLING */}
-          <Button onClick={clearAll} className="
+          <Button onClick={clear} className="
             bg-orange-700 hover:bg-orange-600 active:bg-orange-800 text-white font-bold
             transform transition-all duration-150 ease-out active:scale-95
             shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-opacity-75
