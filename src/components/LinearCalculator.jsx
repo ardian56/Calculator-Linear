@@ -400,7 +400,7 @@ export default function LinearCalculator() {
             shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-opacity-75
             rounded-lg
           ">AC</Button> {/* <<< PERUBAHAN STYLING */}
-          <Button onClick={clear} className="
+          <Button onClick={clearAll} className="
             bg-orange-700 hover:bg-orange-600 active:bg-orange-800 text-white font-bold
             transform transition-all duration-150 ease-out active:scale-95
             shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-opacity-75
